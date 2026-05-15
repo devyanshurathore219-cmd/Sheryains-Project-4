@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Butusic Bento Grid Website</title>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+
+    <div class="bento-container">
+        <div class="bento-grid">
+
+            <!-- Card 1: Top Left Character -->
+            <div class="bento-card card-char-top">
+                <svg viewBox="0 0 200 200">
+                    <path d="M 40,200 Q 40,140 100,140 Q 160,140 160,200 Z" fill="#D7FF45" />
+                    <path d="M 60,200 L 100,140 L 140,200 Z" fill="#111" opacity="0.1" />
+                    <rect x="85" y="110" width="30" height="40" fill="#111" />
+                    <circle cx="100" cy="85" r="35" fill="#FFA5A5" />
+                    <circle cx="85" cy="80" r="8" fill="#FFF" />
+                    <circle cx="85" cy="80" r="3" fill="#111" />
+                    <circle cx="115" cy="80" r="8" fill="#FFF" />
+                    <circle cx="115" cy="80" r="3" fill="#111" />
+                    <circle cx="100" cy="95" r="5" fill="#FF8A8A" />
+                    <path d="M 65,70 Q 80,40 100,45 Q 120,40 135,70 Q 110,35 100,35 Q 90,35 65,70 Z" fill="#FFF" />
+                    <path d="M 75,55 Q 100,30 125,55 Z" fill="#E2E8F0" />
+                </svg>
+            </div>
+
+            <!-- Card 2: Rotating Circle -->
+            <div class="bento-card card-rotate card-padding">
+                <div class="rotate-wrapper">
+                    <svg viewBox="0 0 200 200" class="rotate-svg">
+                        <defs>
+                            <path id="textCircle" d="M 100, 100 m -70, 0 a 70,70 0 1,1 140,0 a 70,70 0 1,1 -140,0" />
+                        </defs>
+                        <text font-size="16" fill="#FFF" font-weight="600" letter-spacing="4.5">
+                            <textPath href="#textCircle" startOffset="0%">
+                                MORE CASES • MORE CASES • MORE CASES • 
+                            </textPath>
+                        </text>
+                    </svg>
+                    <svg class="center-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                        <path d="M12 2v4M12 18v4M4.93 4.93l2.83 2.83M16.24 16.24l2.83 2.83M2 12h4M18 12h4M4.93 19.07l2.83-2.83M16.24 7.76l2.83-2.83" />
+                        <circle cx="12" cy="12" r="3" />
+                    </svg>
+                </div>
+            </div>
+
+            <!-- Card 3: Sidebar Menu -->
+            <div class="bento-card card-sidebar card-padding">
+                <div class="nav-group">
+                    <a href="#" class="nav-item">
+                        <svg class="nav-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2H6a2 2 0 01-2-2V6zM14 6a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2h-2a2 2 0 01-2-2V6zM4 16a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2H6a2 2 0 01-2-2v-2zM14 16a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2h-2a2 2 0 01-2-2v-2z"></path></svg>
+                        CATEGORIES
+                    </a>
+                    <a href="#" class="nav-item">
+                        <svg class="nav-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 10h18M7 15h1m4 0h1m-7 4h12a3 3 0 003-3V8a3 3 0 00-3-3H6a3 3 0 00-3 3v8a3 3 0 003 3z"></path></svg>
+                        PAYMENT
+                    </a>
+                    <a href="#" class="nav-item">
+                        <svg class="nav-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z"></path></svg>
+                        AUTHORS
+                    </a>
+                    <a href="#" class="nav-item active">
+                        <svg class="nav-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M11 5H6a2 2 0 00-2 2v11a2 2 0 002 2h11a2 2 0 002-2v-5m-1.414-9.414a2 2 0 112.828 2.828L11.828 15H9v-2.828l8.586-8.586z"></path></svg>
+                        AUCTION
+                    </a>
+                </div>
+                
+                <div class="nav-group nav-divider">
+                    <a href="#" class="nav-item">
+                        <svg class="nav-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6"></path></svg>
+                        SALES
+                    </a>
+                    <a href="#" class="nav-item">
+                        <svg class="nav-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M11.049 2.927c.3-.921 1.603-.921 1.902 0l1.519 4.674a1 1 0 00.95.69h4.915c.969 0 1.371 1.24.588 1.81l-3.976 2.888a1 1 0 00-.363 1.118l1.518 4.674c.3.922-.755 1.688-1.538 1.118l-3.976-2.888a1 1 0 00-1.176 0l-3.976 2.888c-.783.57-1.838-.197-1.538-1.118l1.518-4.674a1 1 0 00-.363-1.118l-3.976-2.888c-.784-.57-.38-1.81.588-1.81h4.914a1 1 0 00.951-.69l1.519-4.674z"></path></svg>
+                        REVIEWS
+                    </a>
+                </div>
+                
+                <div class="nav-group" style="margin-top: auto; padding-top: 32px;">
+                     <a href="#" class="nav-item">
+                        <svg class="nav-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path></svg>
+                        CONTACTS
+                    </a>
+                </div>
+            </div>
+
+            <!-- Card 4: Top Right Info Banner -->
+            <div class="bento-card card-banner card-padding">
+                <div class="banner-section">
+                    <div class="banner-icon-bg-solid">
+                        <svg width="24" height="24" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 14c-2.33 0-4.31-1.46-5.11-3.5h10.22c-.8 2.04-2.78 3.5-5.11 3.5zm-1.5-6.5c-.83 0-1.5-.67-1.5-1.5S7.67 6.5 8.5 6.5 10 7.17 10 8s-.67 1.5-1.5 1.5zm7 0c-.83 0-1.5-.67-1.5-1.5S14.67 6.5 15.5 6.5 17 7.17 17 8s-.67 1.5-1.5 1.5z"/></svg>
+                    </div>
+                    <p class="banner-text">Only exclusive<br>illustrations</p>
+                </div>
+                <div class="banner-section" style="padding-left: 8px;">
+                     <div class="banner-icon-bg-glass">
+                         <svg width="24" height="24" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M20 7l-8-4-8 4m16 0l-8 4m8-4v10l-8 4m0-10L4 7m8 4v10M4 7v10l8 4"></path></svg>
+                     </div>
+                     <p class="banner-text">We do not sell<br>works on stock</p>
+                </div>
+            </div>
+
+            <!-- Card 5: Branding (BUTUSIC) -->
+            <div class="bento-card card-branding card-padding">
+                <div>
+                    <h1 class="font-bebas branding-title">BUTUSIC</h1>
+                    <h2 class="branding-subtitle">Illustrations<br>Exhibition</h2>
+                </div>
+                
+                <div>
+                    <div class="payment-info">
+                        <div class="payment-icon">
+                            <svg width="32" height="32" fill="currentColor" viewBox="0 0 24 24">
+                                <path d="M17.06 11.57c.38-.25.68-.61.85-1.03.17-.42.22-.88.13-1.31-.08-.43-.3-.83-.63-1.12-.33-.3-.74-.48-1.18-.52H12.5V5h-2v2.5H8.5V5h-2v2.5H4v2h2.5v5H4v2h2.5V19h2v-2.5h2V19h2v-2.5h2.8c.45-.04.88-.23 1.21-.54.34-.31.57-.72.66-1.16.08-.45.03-.92-.15-1.34-.18-.43-.5-.78-.9-1.02-.3-.17-.63-.26-.96-.27zm-6.56-2.07h3.5c.2 0 .4.04.57.13.18.08.33.2.45.34.11.15.19.33.23.51.04.19.04.38-.01.57-.04.18-.13.35-.26.49-.13.14-.29.25-.46.32-.18.07-.37.11-.57.11h-3.45V9.5zm4.5 7h-4.5v-3h4.5c.25 0 .5.05.73.16.23.1.43.26.58.46.16.2.27.43.32.68.06.25.05.5-.02.74-.08.24-.22.45-.4.62-.19.17-.42.29-.67.36-.25.07-.52.09-.78.04-.26-.06-.5-.17-.7-.34a1.86 1.86 0 01-1.06-2.68z"/>
+                            </svg>
+                        </div>
+                        <p class="payment-text">We accept more<br>than just bitcoins</p>
+                    </div>
+                    
+                    <div class="barcode-container">
+                        <div class="barcode-line bl-1"></div>
+                        <div class="barcode-line bl-2"></div>
+                        <div class="barcode-line bl-1"></div>
+                        <div class="barcode-line bl-3"></div>
+                        <div class="barcode-line bl-1"></div>
+                        <div class="barcode-line bl-4"></div>
+                        <div class="barcode-line bl-1"></div>
+                        <div class="barcode-line bl-3"></div>
+                        <div class="barcode-line bl-1"></div>
+                        <div class="barcode-line bl-3"></div>
+                        <div class="barcode-line bl-5"></div>
+                        <div class="barcode-line bl-1"></div>
+                        <div class="barcode-line bl-2"></div>
+                        <div class="barcode-line bl-1"></div>
+                        <div class="barcode-line bl-3"></div>
+                        <div class="barcode-line bl-1"></div>
+                        <div class="barcode-line bl-4"></div>
+                        <div class="barcode-line bl-1"></div>
+                        <div class="barcode-line bl-1"></div>
+                        <div class="barcode-line bl-3"></div>
+                        <div class="barcode-line bl-2"></div>
+                        <div class="barcode-line bl-1"></div>
+                        <div class="barcode-line bl-3"></div>
+                        <div class="barcode-line bl-4"></div>
+                        <div class="barcode-line bl-1"></div>
+                        <div class="barcode-line bl-3"></div>
+                        <div class="barcode-line bl-1"></div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 6: Event Info -->
+            <div class="bento-card card-event card-padding">
+                <div class="event-location">
+                    <div class="location-icon">
+                        <svg width="24" height="24" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/></svg>
+                    </div>
+                    <div>
+                        <p class="location-text">1217 PURRWEB</p>
+                        <p class="location-text">STREET, LA</p>
+                    </div>
+                </div>
+                
+                <div class="event-details">
+                    <h3 class="event-title">FIRST EXHIBITION OF<br>ILLUSTRATIONS OFFLINE</h3>
+                    <p class="event-link">BUTUSIC.COM/EXHIBITION</p>
+                </div>
+            </div>
+
+            <!-- Card 7: Right Character (Lime) -->
+            <div class="bento-card card-char-right">
+                <svg viewBox="0 0 250 300">
+                    <path d="M 20,300 Q 20,180 125,160 Q 230,180 230,300 Z" fill="#3B82F6" />
+                    <path d="M 20,300 Q 20,180 125,160 Q 230,180 230,300 Z" fill="url(#fabricTexture)" opacity="0.3" />
+                    
+                    <circle cx="70" cy="230" r="12" fill="#D7FF45" />
+                    <path d="M 66,227 Q 70,232 74,227" stroke="#111" stroke-width="2" fill="none" stroke-linecap="round"/>
+                    <circle cx="66" cy="225" r="1.5" fill="#111" />
+                    <circle cx="74" cy="225" r="1.5" fill="#111" />
+
+                    <circle cx="160" cy="260" r="12" fill="#D7FF45" />
+                    <path d="M 156,257 Q 160,262 164,257" stroke="#111" stroke-width="2" fill="none" stroke-linecap="round"/>
+                    <circle cx="156" cy="255" r="1.5" fill="#111" />
+                    <circle cx="164" cy="255" r="1.5" fill="#111" />
+
+                    <path d="M 190,180 L 120,300 L 140,300 L 210,180 Z" fill="#111" />
+                    <path d="M 185,185 L 125,290 L 135,290 L 195,185 Z" fill="#D7FF45" />
+
+                    <path d="M 90,140 Q 125,150 160,140 L 165,170 Q 125,180 85,170 Z" fill="#2563EB" />
+                    <rect x="110" y="120" width="30" height="30" fill="#111" />
+
+                    <circle cx="125" cy="95" r="40" fill="#FFA5A5" />
+                    <circle cx="105" cy="90" r="10" fill="#FFF" />
+                    <circle cx="105" cy="90" r="4" fill="#111" />
+                    <circle cx="145" cy="90" r="10" fill="#FFF" />
+                    <circle cx="145" cy="90" r="4" fill="#111" />
+                    <circle cx="125" cy="110" r="6" fill="#FF8A8A" />
+                    
+                    <path d="M 85,80 Q 100,30 125,40 Q 150,30 165,80 Q 135,40 125,40 Q 115,40 85,80 Z" fill="#FFF" />
+                    <path d="M 100,60 Q 125,30 150,60 Z" fill="#E2E8F0" />
+                    
+                    <defs>
+                        <pattern id="fabricTexture" width="4" height="4" patternUnits="userSpaceOnUse">
+                            <circle cx="2" cy="2" r="1" fill="#111" />
+                        </pattern>
+                    </defs>
+                </svg>
+            </div>
+
+            <!-- Card 8: Awards Row -->
+            <div class="bento-card card-awards card-padding">
+                <svg class="award-icon" viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M12 15.25c3.27 0 5.92-2.65 5.92-5.92S15.27 3.41 12 3.41 6.08 6.06 6.08 9.33 8.73 15.25 12 15.25zm0-9.84c2.16 0 3.92 1.76 3.92 3.92s-1.76 3.92-3.92 3.92-3.92-1.76-3.92-3.92 1.76-3.92 3.92-3.92z"/>
+                    <path d="M16.5 13.92l2.36 7.42-4.14-3.08-2.72 2.02-2.72-2.02-4.14 3.08 2.36-7.42C5.6 12.39 4.3 10 4.3 7.35 4.3 3.3 7.75-.15 12-.15s7.7 3.45 7.7 7.5c0 2.65-1.3 5.04-3.2 6.57zm-4.5 1.48l1.43 1.06 2.36 1.76-1.34-4.22c-.78.47-1.66.78-2.61.88l.16.52zm-3.86 2.82l2.36-1.76 1.43-1.06.16-.52c-.95-.1-1.83-.41-2.61-.88l-1.34 4.22z"/>
+                </svg>
+                 <svg class="award-icon" viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M12 15.25c3.27 0 5.92-2.65 5.92-5.92S15.27 3.41 12 3.41 6.08 6.06 6.08 9.33 8.73 15.25 12 15.25z"/>
+                    <path d="M16.5 13.92l2.36 7.42-4.14-3.08-2.72 2.02-2.72-2.02-4.14 3.08 2.36-7.42C5.6 12.39 4.3 10 4.3 7.35 4.3 3.3 7.75-.15 12-.15s7.7 3.45 7.7 7.5c0 2.65-1.3 5.04-3.2 6.57z"/>
+                </svg>
+                <svg class="award-icon" viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M12 15.25c3.27 0 5.92-2.65 5.92-5.92S15.27 3.41 12 3.41 6.08 6.06 6.08 9.33 8.73 15.25 12 15.25z"/>
+                    <path d="M16.5 13.92l2.36 7.42-4.14-3.08-2.72 2.02-2.72-2.02-4.14 3.08 2.36-7.42C5.6 12.39 4.3 10 4.3 7.35 4.3 3.3 7.75-.15 12-.15s7.7 3.45 7.7 7.5c0 2.65-1.3 5.04-3.2 6.57z"/>
+                </svg>
+                <svg class="award-icon" viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M12 15.25c3.27 0 5.92-2.65 5.92-5.92S15.27 3.41 12 3.41 6.08 6.06 6.08 9.33 8.73 15.25 12 15.25z"/>
+                    <path d="M16.5 13.92l2.36 7.42-4.14-3.08-2.72 2.02-2.72-2.02-4.14 3.08 2.36-7.42C5.6 12.39 4.3 10 4.3 7.35 4.3 3.3 7.75-.15 12-.15s7.7 3.45 7.7 7.5c0 2.65-1.3 5.04-3.2 6.57z"/>
+                </svg>
+            </div>
+
+            <!-- Card 9: App Download -->
+            <div class="bento-card card-app card-padding">
+                <svg class="app-arrow" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 19.5l15-15m0 0H8.25m11.25 0v11.25" />
+                </svg>
+                
+                <div class="app-content">
+                    <div class="qr-placeholder">
+                        <div class="qr-block qr-large"></div>
+                        <div class="qr-block"></div>
+                        <div class="qr-block"></div>
+                        <div class="qr-block"></div>
+                        <div class="qr-block qr-large"></div>
+                        <div class="qr-block"></div>
+                        <div class="qr-block"></div>
+                        <div class="qr-block"></div>
+                        <div class="qr-block"></div>
+                        <div class="qr-block"></div>
+                        <div class="qr-block qr-large"></div>
+                    </div>
+                    <div>
+                        <h3 class="app-title">APPSTORE</h3>
+                        <p class="app-desc">Download the app and get 10% off your first purchase</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 10: Reviews -->
+            <div class="bento-card card-review">
+                <div class="review-layout">
+                    <div class="review-left">
+                        <h2 class="review-title">ONLY THE BEST AUTHORS</h2>
+                        <p class="review-subtitle">184 guys with a unique vision</p>
+                    </div>
+                    
+                    <div class="review-right">
+                        <div class="rating-box">
+                            <div class="rating-number">4.97</div>
+                            <div class="stars">
+                                <svg class="star-icon" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+                                <svg class="star-icon" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+                                <svg class="star-icon" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+                                <svg class="star-icon" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+                                <svg class="star-icon star-empty" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+                            </div>
+                        </div>
+                        
+                        <button class="btn-review">
+                            BEST REVIEWS
+                            <svg width="16" height="16" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path></svg>
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+</body>
+</html>
