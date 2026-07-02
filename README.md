@@ -1,18 +1,9 @@
-﻿# ðŸ” Creative Minimalist Landing Hero
+# Minimalist Creative Agency Hero
 
-A clean, minimalist layout design exploring spacing systems, typography hierarchies, and button designs.
+A simple responsive landing page layout focusing on grid systems and typography hierarchies.
 
-## ðŸ› ï¸ Tech Stack
-- HTML5
-- Pure CSS3
+### Tech Stack
+* HTML5 / CSS3
 
-## âœ¨ Features
-- Simplified grid-based design.
-- Clean hover transitions.
-- Fully responsive layout sizing.
-
-## ðŸš€ Setup & Run
-1. Open index.html directly in any web browser.
-
-## ðŸ“„ License
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+### License
+MIT License.
